@@ -1,0 +1,1190 @@
+/*================= class for js =======================*/
+.repoSize{
+	overflow: hidden;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	-webkit-transform: translateZ(0);
+}
+.repoSize .wrpTl{
+	display: none;
+}
+.repoSize .wrpPlg{
+	margin: 0 !important;
+}
+.rePosTgDp{
+	height: 46px;
+	background: rgba(256,256,256,0.6);
+	box-shadow: 0 0 8px rgba(0,0,0,0.1) inset;
+}
+.editTlWdthIhr{
+	width: inherit !important;
+	overflow-x: hidden !important; 
+}
+.icoEditTlDpNn{
+	display: none !important;
+}
+.itPlg{
+	position: relative;
+}
+.itPlg .wrpPlg{
+	min-height: 360px;
+	margin: 15px 0 0 0;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.repoSize>div{
+	min-height: inherit;
+	margin:0;
+	overflow: hidden;
+	border: 0;
+}
+.repoSize .frmTaTxtPI{
+	position: relative;
+}
+.repoSize .wrpOutAtcPlg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #F9F9F9;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	cursor: move;
+}
+.repoSize .rcmSizeAdd{
+	display: none;
+}
+.repoSize .spnAtcPlg{
+	line-height: 16px;
+}
+/* modify pos subbar addtool*/
+.subBAddCtntJs{
+	position: relative;
+	top: -60px;
+	z-index: 1000;
+}
+.itemWrapOuterImage{
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 250px;
+}
+.itemWrapInnerImage{
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+	height: 250px;
+	cursor: pointer;
+}
+.imgCrpCenter{
+		display: block;
+		margin: 0 auto;
+		max-width: 540px;
+		width: auto;
+		max-height: 250px;
+		height: auto;
+}
+.jcrop-holder{	
+	margin: 0 auto;
+}
+.ui-datepicker{
+	z-index: 10000 !important;
+	-ms-transform: translateZ(100px);
+}
+/*================== css add content ====================*/
+/*--------------------hover active------------------*/
+.icoEditTl:hover,.spnSlctCell span:hover,.wrpInCellPopTrip:hover,.btnSeeMore:hover{
+	opacity: 0.8;
+}
+.wrpInCellPopTrip:active .ovlCellTrip,.cellTripAtv{
+	z-index: 10;
+	background: rgba(255,255,255,0.6) !important;
+	width: 100%;
+	height: 100%;
+}
+.subBAddCtnt{
+	margin-top: 40px;
+	position: relative;
+	z-index: 1000;
+}
+/*add content*/
+.wrprAddCtnt{
+	margin: 160px auto 30px !important;
+	max-width: 781px;
+}
+/*editor tool*/
+.wrpEditTl{
+	background: #F9F9F9;
+	border-left-width: 0;
+	border-right-width: 0;
+	width: 100%;
+	overflow-x: auto;
+  	overflow-y: hidden;
+  	box-shadow: 0 1px 5px rgba(180,180,180,0.5);
+}
+.no-csstransforms3d .wrpEditTl{
+	height: 72px;
+}
+/*head editor tool*/
+.hdEditTl{
+	width: 70px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+	padding: 8px 5px;
+}
+.ovlTlL{
+	background: transparent url(img/ovltoolleft.png) no-repeat;
+	background-size: 56px;
+	width: 56px;
+	height: 56px;
+	display: block;
+	position: absolute;
+	margin-left: 80px;
+	display: none;
+}
+.ovlTlR{
+	background: transparent url(img/ovltoolright.png) no-repeat;
+	background-size: 56px;
+	width: 56px;
+	height: 56px;
+	display: block;
+	position: absolute;
+	margin-left: 830px;
+	display: none;
+}
+/*tool*/
+.icoEditTl{
+	padding: 8px 0 2px;
+	display: inline-block;
+	width: 72px;
+	text-align: center;
+	cursor: pointer;
+}
+.icoEditTl .ico{
+	margin: 0 auto;
+	background-size: 400px 200px;
+}
+/*icon*/
+.icoTxtEditTl{
+	background-position: 0 120px;
+	width: 35px;
+	height: 30px;
+}
+.icoImgEditTl{
+	background-position: 360px 120px;
+	width: 34px;
+	height: 30px;
+}
+.icoVdoEditTl{
+	background-position: 321px 120px;
+	width: 41px;
+	height: 30px;
+}
+.icoGalEditTl{
+	background-position: 280px 120px;
+	width: 25px;
+	height: 30px;
+}
+.icoCtcEditTl{
+	background-position: 240px 120px;
+	width: 27px;
+	height: 30px;
+}
+.icoMapEditTl{
+	background-position: 120px 120px;
+	width: 22px;
+	height: 30px;
+}
+.icoUlEditTl{
+	background-position: 160px 120px;
+	width: 37px;
+	height: 30px;
+	margin-top: 8px;
+}
+.icoFrmEditTl{
+	background-position: 200px 120px;
+	width: 29px;
+	height: 30px;
+}
+.icoFcltEditTl{
+	background-position: 120px 40px;
+	width: 37px;
+	height: 27px;
+}
+.icoHshEditTl{
+	background-position: 220px 40px;
+	width: 25px;
+	height: 30px;
+}
+.wrpRePosEditTl{
+	border-width: 1px;
+	border-left-style: solid;
+	float: right;
+}
+.icoRePosEditTl{
+	background-position: 80px 120px;
+	width: 25px;
+	height: 25px;
+	margin-bottom: 4px !important;
+}
+/*add content*/
+.wrpAddCtnt{
+	padding: 40px 66px 60px;
+}
+.tbAddCtnt input[type="text"]{
+	width: 95%;
+	box-sizing: border-box;      
+	-webkit-box-sizing:border-box;      
+	-moz-box-sizing: border-box;
+}
+/*title and description*/
+.wrpStaticAddCtnt{
+	padding-bottom: 10px;
+}
+.ShpPlg{
+	margin-bottom: 20px
+}
+/*body add content*/
+.wrpDynamicAddCtnt{
+	margin-top: 20px;
+}
+/*plgin*/
+.plgArea{
+	height: 360px;
+	position: absolute;
+}
+.addMapPlg .plgArea{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.wrpOpenTime > span,.prdPlg > span{
+	margin: 0 5px;
+}
+/*input*/
+.inpAddCtntNoBd{
+	padding: 5px 10px;
+	border: none;
+	resize: none;
+	line-height: 24px;
+}
+.w630{
+	width: 100%;
+	box-sizing: border-box;      
+	-webkit-box-sizing:border-box;      
+	-moz-box-sizing: border-box;
+}
+.w616{
+	width: 100%;
+	box-sizing: border-box;      
+	-webkit-box-sizing:border-box;      
+	-moz-box-sizing: border-box;
+}
+.inpTprPlg{
+	background:  transparent;
+}
+/*article plgin*/
+.wrpAtcPlg {
+	margin-top: 28px;
+	padding: 10px;
+	position: absolute;
+}
+.wrpAtcPlg .ico{
+	float: left;
+}
+.wrpAtcPlg .icoOri{
+	background-size: 400px 200px;
+}
+.spnAtcPlg{
+	margin-left: 35px;
+}
+.txtAtcPlg{
+	line-height: 35px;
+}
+/*icon*/
+.icoTxtPlg{
+	background-position: 0 80px;
+	width: 25px;
+	height: 22px;
+	margin-top: 6px;
+}
+.icoImgPlg{
+	background-position: -25px 50px;
+	background-size: 250px 125px;
+	width: 25px;
+	height: 18px;
+	margin-top: 8px;
+}
+.icoVdoPlg{
+	background-position: 320px 80px;
+	width: 25px;
+	height: 16px;
+	margin-top: 8px;
+}
+.icoGalPlg{
+	background-position: 280px 80px;
+	width: 25px;
+	height: 25px;
+	margin-top: 4px;
+}
+.icoCtcPlg{
+	background-position: 240px 80px;
+	width: 25px;
+	height: 23px;
+	margin-top: 6px;
+}
+.icoMapPlg{
+	background-position: 120px 80px;
+	width: 19px;
+	height: 25px;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.icoUlPlg{
+	background-position: 350px 50px;
+	background-size: 250px 125px;
+	width: 25px;
+	height: 17px;
+	margin-top: 8px;
+}
+.icoFrmPlg{
+	background-position: 200px 80px;
+	width: 25px;
+	height: 22px;
+	margin-top: 6px;
+}
+.icoHshPlg{
+	background-position: 190px 40px;
+	width: 21px;
+	height: 25px;
+	margin-top: 4px;
+}
+.wrpAtcPlg,.hdLct,.addGalTl .btnIco{
+	background-color: rgba(189,189,189,0.6);
+}
+/*description*/
+.desPlg{
+	text-align: center;
+	display: block;
+	padding: 170px 100px 0 100px;
+}
+/*form*/
+.frmTprPlg{
+	position: absolute;
+	bottom: 0;
+	width: 100%;            
+}
+.frmTxtPlg{
+	height: 260px;
+	margin-top: 100px;
+	-ms-overflow-y: auto;
+}
+.wrpInpShpPlg{
+	position: relative;
+}
+.wrpInpShpPlg .inpAddCtnt{
+	float: left;
+	margin-right: 5px;
+	width: 205px;
+	height: 26px;
+}
+.reDsShp{
+	position: relative;
+	float: left;
+	width: 200px;
+}
+/*location*/
+.wrpInpLct{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.hdLct{
+	float: left;
+	padding: 7px 20px;
+	display: none;
+}
+.frmLctPlg{
+	position: relative;
+	height: 32px;
+	width: 100%;
+}
+.inpLctPlg{
+	padding: 6px 35px 6px 5px;
+	border: none;
+	width: 100%;
+	box-sizing: border-box;      -webkit-box-sizing:border-box;      -moz-box-sizing: border-box;
+}
+.srchLct{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px;
+}
+/*contact*/
+.frmCtcPlg,.frmFrmPlg{
+	margin: 100px 20px 10px;
+}
+.tbFrmPlg td{
+	vertical-align: middle;
+	padding: 5px 0;
+}
+.wrpInpOpentime{
+	margin-left: 20px;
+}
+.tbAddCtnt input[text],.tbAddCtnt textarea{
+	width: 95%;
+	box-sizing: border-box;      
+	-webkit-box-sizing:border-box;      
+	-moz-box-sizing: border-box;
+}
+.inpAddInfoPlg{
+	width: 95%;
+	box-sizing: border-box;      
+	-webkit-box-sizing:border-box;      
+	-moz-box-sizing: border-box;
+}
+.tbFrmPlg th{
+	text-align: left;
+	font-weight: normal;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+.tbFrmPlg input,.tbFrmPlg textarea{
+	padding: 2px 5px;
+	resize: none;
+	width: 250px;
+}
+/*Gallery*/
+.desGal{
+	padding: 110px 100px 20px 100px;
+}
+.wrpOutGalPlg{
+	margin: 0 6px;
+}
+.wrpGalPlg{
+	float: left;
+	margin: 3px;
+}
+.galArea,.tnAddInfoLd{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+}
+.addGalTl{
+	width: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.plgAreaGallery{
+	width: 150px;
+	height: 150px;
+}
+.frmGalPlg{
+	clear: both;
+	margin-top: 150px;
+}
+.frmGalPlg textarea{
+	width: 140px;
+	height: 45px;
+}
+/*upload*/
+.frmUlPlg{
+	margin-top: 100px;
+	height: 260px;
+}
+.frmUlPlg textarea{
+	position: absolute;
+	bottom: 0;
+	-ms-overflow-y: auto;
+}
+.wrpUlArea{
+	position: relative;
+}
+.cloudAdd{
+	width: 102px;
+	position: relative;
+	margin: 20px auto 10px;
+}
+.cloudAdd .ico2{
+	background-size: 240px 120px;
+}
+.icoCloudAdd{
+	background-position: 120px 120px;
+	width: 102px;
+	height: 70px;
+}
+.upAddIco{
+	position: absolute;
+	top: 10px;
+	right: 11px;
+	padding: 20px 20px 0;
+}
+.icoUpAdd{
+	background-position: 200px 40px;
+	width: 40px;
+	height: 40px;
+}
+.icoCrtGrn{
+	background-position: 160px 40px;
+	width: 40px;
+	height: 30px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.ulPg{
+	position: absolute;
+	top: 30px;
+	right: 28px;
+}
+.ulDesNameSize{
+	text-align: center;
+}
+/*landing information*/
+.wrpAddInfoLd{
+	margin: 40px 0 0 0;
+}
+.tnAddInfoLd{
+	position: relative;
+	float: left;
+}
+.wrpCatArea{
+	width: 164px;
+	height: 120px;
+	padding: 15px; 
+	overflow: auto;
+}
+.wrpInCatArea label{
+	line-height: 24px;
+	width: 130px;
+	display: inline-block;
+	cursor: pointer;
+}
+.wrpTnAddInfoLd,.wrpCatAddInfoLd,.wrpTagPlshAddInfoLd{
+	float: left;
+	margin-right: 24px;
+}
+.wrpTagPlshAddInfoLd{
+	margin-right: 0px;
+}
+.inpTagAdd{
+	width: 333px;
+}
+.wrpTtlPlshAddInfoLd{
+	float: left;
+}
+.wrpPlsh{
+	margin-left: 120px;
+}
+.wrpPlsh input,.wrpPlsh label{
+	cursor: pointer;
+}
+.wrpPlsh input{
+	margin-bottom: 5px;
+}
+.wrpPlsh label{
+	margin: 0 20px 0 5px;
+}
+	.addImgPlg input[type="text"],.addUlPlg textarea,.addMapPlg input[type="text"]{
+		background: rgba(255,255,255,0.8);
+	}
+	.tbAddCtnt input[type="text"]{
+		background-color: #F7F7F7;
+	}
+.addVdoPlg .wrpPlg{
+	min-height: 285px;
+}
+.addImgPlg .wrpOutAtcPlg,.addImgPlg .desPlg,.addVdoPlg .desPlg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.addVdoPlg .wrpOutAtcPlg{
+	position: absolute;
+	top: 0;
+}
+.addImgPlg div div a img{
+	width: 100%;
+	height: auto;
+}
+.addImgPlg .plgArea{
+	position: relative;
+	height: 100%;
+}
+.addVdoPlg .desPlg{
+	padding: 30% 15% 0;
+}
+.addImgPlg .plgArea,.addImgPlg .wrpOutAtcPlg,.addImgPlg .frmTprPlg,.addVdoPlg .plgArea,.addVdoPlg .wrpOutAtcPlg{
+	z-index: 10;
+}
+.vdoclass {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.vdoclass iframe,.vdoclass video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+/*footer add content*/
+.ftrAddCtnt{
+	margin: 70px 0 0 0;
+	height: 30px;
+}
+.wrpAuthUpdtAddCtnt{
+	float: left;
+}
+.wrpBtnAddCtnt{
+	float: right;	
+}
+.authAddCtnt span{
+	max-width: 110px;
+	display: inline-block;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 22px;
+}
+/*--------------------my trip------------------------------*/
+.btnCreateDay{
+	float: right;
+}
+.slctCell{
+	right: 0;
+	padding: 10px 0;
+}
+.spnSlctCell span{
+	padding: 0 10px;
+	cursor: pointer;
+}
+.w158{
+	width: 158px;
+	height: 158px;
+}
+.w128{
+	width: 128px;
+	height: 128px;
+}
+.wrpInCellTrip{
+	cursor: default;
+	width: 19%;
+	height: auto;
+}
+.wrpInCellTrip .imgCell{
+	width: 100%;
+	height: auto;
+}
+.wrpPlgAreaTrip{
+	margin-top: 100px;
+}
+.addTripPlg .wrpPlg{
+	padding-bottom: 20px;
+}
+.ovlCellTrip{
+	position: absolute;
+	background: transparent url(img/ovlcell.png) center center no-repeat;
+	display: block;
+	width: 100% !important;
+	height: 100% !important;
+}
+.wrpInCellTrip .ovlCellTrip{
+	background-size: 100%;
+	width: 100% !important;
+	height: 100% !important
+}
+.ldTtlTrip{
+	width: 90%;
+	line-height: 33px;
+	bottom: 24px;
+}
+.inpTimeTrip{
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+}
+.timeTrip{
+	background: transparent;
+	border: none;
+	line-height: 24px;
+	width: 100px;
+}
+.pointTrip{
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	border: 1px solid #fff;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+}
+.pointTrip span{
+	position: relative;
+	top: -2px;
+}
+.ldTtlAddTrip{
+	width: 86%;
+	margin: 0 7%;
+	line-height: 28px;
+	bottom: 5px;
+	height: 56px;
+	overflow: hidden;
+
+}
+.wrpInCellPopTrip{
+	width: 30% !important;
+	height: auto !important;
+	margin: 1% !important
+}
+.wrpInCellPopTrip .w128{
+	width: 100%;
+	height: auto;
+}
+.wrpPopAddCellTrip .bodyInGen{
+    min-height: 405px;
+}
+.wrpPopAddCellTrip .imgCell{
+    width: 100%;
+    height: auto;
+}
+.wrpPopAddCellTrip .ovlCellTrip{
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+}
+.wrpPopAddCellTrip .frmGenImg{
+	height: 210px;
+}
+.touch .wrpPopAddCellTrip .frmGenImg{
+	width: 105%;
+}
+.frmGenImg{
+	overflow-x: hidden;
+}
+.tTrp{
+	background: url(img/sprite.png);
+	background-position: 79px 79px;
+	background-size: 400px 200px;
+	width: 53px;
+	height: 38px;
+}
+.wrpInCellPopTrip{
+	position: relative;
+	margin: 1px;
+	cursor: pointer;
+	float: left;
+}
+/*------------facility-------------*/
+.icoFcltPlg{
+	background-position: 182px -31px;
+	background-size: 304px 152px;
+	width: 25px;
+	height: 18px;
+	margin-top: 7px;
+}
+.tbAddFclt{
+	margin: 0 0 20px 20px;
+}
+.tbAddFclt li{
+	width: 130px;
+	padding: 3px 10px 0 3px;
+	float: left;
+}
+.tbAddFclt .checkBoxDm{
+	float: left;
+	margin-top: 5px;
+}
+.tbAddFclt .userSlctNone{
+	margin-left: 20px;
+	display: block;
+	line-height: 24px;
+}
+/*animate*/
+.rePosTgDp .icoRePosEditTl{
+	-webkit-animation: loading-icoRefresh 3s infinite linear;
+	-moz-animation: loading-icoRefresh 3s infinite linear;
+	animation: loading-icoRefresh 3s infinite linear;
+}
+@keyframes loading-icoRefresh {
+	0%   { transform:rotate(0deg);}
+	100% { transform:rotate(360deg);}
+}
+@-webkit-keyframes loading-icoRefresh {
+	0%   { -webkit-transform:rotate(0deg);}
+	100% { -webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes loading-icoRefresh {
+	0%   { -moz-transform:rotate(0deg);}
+	100% { -moz-transform:rotate(360deg);}
+}
+.wrpInCtnt{
+	width: 100%;
+	overflow-x: hidden;
+}
+.wrpAddCtnt{
+	overflow-x: hidden;
+}
+.tbGenInfo,.wrpInpOpentime {
+	width: 100%;
+}
+.tbGenInfo .reDesign{
+	width: 95%;
+	box-sizing: border-box;      
+	-webkit-box-sizing:border-box;      
+	-moz-box-sizing: border-box;
+}
+.tbGenInfo th{
+	width: 28%;
+}
+.plgAreaTrip{
+	margin-left: 4%;
+}
+/*------------upload progress-------------*/
+
+/*============== media qr ==================*/
+@media only screen and (max-width: 1340px){
+	.wrpInCellTrip {
+		width: 32%;
+	}
+	.touch .wrpEditTl{
+		-webkit-overflow-scrolling: touch;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.wrprAddCtnt {
+		margin: 146px 20px 20px;
+	}
+	.wrpAddCtnt {
+		padding: 30px 40px;
+	}
+	.wrpAddInfoLd {
+		margin: 40px 10px 0;
+	}
+	.ftrAddCtnt {
+		margin: 30px 10px 70px;
+	}
+	.authAddCtnt,.updtAddCtnt{
+		margin-right: 10px;
+	}
+	/*laout tool addcontent*/
+	.touch .wrpInMid{
+		overflow-x: hidden;
+	}
+	.subB{
+		position: relative;
+		z-index: 1000;
+		width: 100%;
+		box-shadow: 0 1px 5px rgba(180,180,180,0.5);
+	}
+	.touch .subB{
+		top: 0;
+	}
+	/*common*/
+	.wrpTagPlshAddInfoLd {
+		margin-top: 10px;
+	}
+	.inpTagAdd {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 830px){
+	.itPlg .wrpPlg{
+		min-height: 208px;
+	}
+	.rcmSizeAdd {
+		display: none;
+	}
+	.wrpInCellTrip {
+		width: 40%;
+	}
+	.spnAtcPlg span{
+		line-height: 25px;
+	}
+	.wrprAddCtnt {
+		margin: 146px 10px 20px;
+	}
+	.wrpAddCtnt {
+		padding: 30px 20px;
+	}
+	.wrpAuthUpdtAddCtnt {
+		line-height: 20px;
+	}
+	.authAddCtnt,.updtAddCtnt{
+		display: block;
+		margin-right: 0;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.repoSize{
+		width: 87px;
+		height: 90px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+	.repoSize .spnAtcPlg{
+		display: none;
+	}
+	.wrpInpShpPlg {
+		margin-bottom: 20px;
+	}
+	.addImgPlg .inpAddCtntNoBd{
+		width: 80%;
+	}
+	.inpLctPlg{
+		width: 125%;
+	}
+	.srchLct{
+		right: -25%;
+	}
+	.frmTxtPlg {
+		height: 120px;
+	}
+	.frmTxtPlg {
+		margin-left: 0;
+		position: relative;
+		top: 5px;
+	}
+	.desPlg {
+		padding: 100px 50px 0;
+	}
+	.hdLct {
+		display: none;
+	}
+	.frmLctPlg {
+		margin-left: 0;
+		bottom: 0;
+	}
+	.tbGenInfo,.wrpInpOpentime {
+		margin-left: 0;
+	}
+	.wrpInpOpentime  .toGen{
+		display: block;
+	}
+	.tbGenInfo .reDesign {
+		width: 100%;
+	}
+	.wrpOutGalPlg {
+		margin: 20px 10px 0;
+	}
+	.wrpInpLct{
+		width: 80%;
+		border-width: 0;
+	}
+	.wrpAddInfoLd{
+		margin-left: 10px;
+	}
+	.wrpTnAddInfoLd, .wrpCatAddInfoLd{
+		margin-top: 10px;
+	}
+	.inpTagAdd {
+		width: 285px;
+	}
+	.wrpPlsh label {
+		margin: 0 10px 0 5px;
+	}
+/*my trip*/
+	.slctCell{
+		padding: 0;
+	}
+	.spnSlctCell span{
+		display: block;
+		line-height: 40px;
+	}
+	.myCellTrip,.myFavTrip,.newActTrip{
+		border-right-width: 0px;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+	}
+	.wrpPlgAreaTrip{
+		margin-left: 20px;
+		float: left;
+	}
+	.plgAreaTrip{
+		width: 89%;
+	}
+	.addTripPlg .desPlg{
+		padding: 120px 100px 20px 0; 
+	}
+	.icoImgPlg,.icoVdoPlg,.icoUlPlg{
+		margin: 4px 0;
+	}
+	.icoTxtPlg,.icoFrmPlg,.icoFcltPlg,.icoCtcPlg {
+		margin: 3px 0;
+	}
+	.icoMapPlg{
+		margin: 2px;
+	}
+	.icoGalPlg{
+		margin: 2px 0;
+	}
+}
+@media screen and (max-width: 768px){
+	.wrpInCellTrip {
+		width: 32%;
+	}
+	.plgAreaTrip {
+		width: 100%;
+		margin-left: 0;
+	}
+	.slctCell {
+		padding: 10px 0;
+	}
+	.spnSlctCell span {
+		display: inline-block;
+		line-height: normal;
+	}
+	.myCellTrip, .myFavTrip, .newActTrip {
+		border-right-width: 1px;
+		border-bottom-width: 0;
+	}
+	.addTripPlg .desPlg {
+		padding: 120px 50px 0;
+	}
+}
+@media screen and (max-width: 530px){
+	.wrpPlgAreaTrip{
+		margin-left: 0;
+	}
+	.wrpInCellTrip {
+		width: 88%;
+	}
+	.slctCell {
+		padding: 0;
+	}
+	.spnSlctCell span {
+		display: block;
+		line-height: 40px;
+	}
+	.myCellTrip, .myFavTrip, .newActTrip {
+		border-right-width: 0px;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+	}
+	.addTripPlg .desPlg {
+		padding: 120px 110px 20px 10px; 
+	}
+	.plgAreaTrip {
+		width: 73%;
+	}
+}
+@media screen and (max-width: 455px){
+	.wrprAddCtnt {
+    	margin: 100px auto 30px !important;
+   	}
+	.tbGenInfo th{
+		width: 100%;
+	}
+	.tbGenInfo td,.tbGenInfo th{
+		display: block;
+	}
+	.inpDate,.tbAddCtnt input[type="text"],.tbGenInfo .reDesign,.inpAddInfoPlg,.tbAddCtnt input[text],.tbAddCtnt textarea{
+		width: 100% !important;
+	}
+	.inpDate input,.wrpInpShpPlg .inpAddCtnt,.reDsShp,.wrpInpOpentime .inpAddCtnt,.inpPostCode{
+		width: 100%;
+		box-sizing: border-box;      
+		-webkit-box-sizing:border-box;      
+		-moz-box-sizing: border-box;
+	}
+	.wrpSubB{
+		display: none;
+	}
+	.wrpInCtnt{
+		padding-top: 0 !important;
+		height: 100%;
+		width: 100%;	
+	}
+	.wrpEditTl {
+		margin-bottom: 0;
+		overflow-y: hidden;
+		overflow-x: scroll;
+		margin-top: 44px;
+		position: relative;
+		width: 100%;
+	}
+	.wrpAddCtnt{
+		padding: 40px 10px;
+		margin-top: 87px;
+		overflow-y: hidden;
+	}
+	.wrprAddCtnt{
+		margin: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+	}
+	.wrpInCellPopTrip{
+		width: 47% !important;
+		height: auto;
+	}
+	.addImgPlg .desPlg{
+		padding: 100px 50px 0;
+	}
+	.wrpOutGalPlg .galArea,.wrpOutGalPlg .tnAddInfoLd {
+		width: 130px;
+	}
+	.frmGalPlg textarea{
+		width: 120px;
+	}
+	.plgAreaGallery img{
+		width: 130px;
+		height: 150px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+.ctcPf:hover{
+	opacity: 0.8;
+}
+.wrpInvt{
+	margin: 80px;
+	line-height: 40px;
+}
+.wrpShrSendInvt{
+	margin-bottom: 40px;
+}
+.wrpEmInvt{
+	margin-bottom: 80px;
+}
+.spnInvt{
+	margin-left: 40px;
+}
+.wrpCtcInvt{
+	margin: 20px 0 0 150px;
+}
+.inpEmInvt{
+	margin: 20px 0 0 40px;
+}
+.inpEmInvt input{
+	padding: 1px 5px;
+	width: 67%;
+	float: left;
+	max-width: 500px;
+}
+.btnEmInvt{
+	float: left;
+}
+@media screen and (max-width: 1024px){
+	.inpEmInvt {
+		margin: 20px 0 0 40px;
+		position: relative;
+	}
+	.wrpInvt {
+		margin: 40px;
+	}
+	.wrpCtcInvt {
+		margin: 20px 0 0 100px;
+	}
+}
+@media screen and (max-width: 420px){
+	.wrpCtcInvt {
+		margin: 20px 0 0 0;
+		text-align: center;
+	}
+	.inpEmInvt {
+		margin: 20px 0 0 0;
+	}
+	.inpEmInvt input{
+		width: 95%;
+	}
+	.btnEmInvt {
+	    margin-top: 20px;
+	    position: relative;
+	    width: 99%;
+	}
+}
+@media screen and (max-width: 320px){
+	.wrpInvt{
+		margin: 20px 10px 40px;
+		line-height: 20px;
+	}
+	.spnInvt{
+		font-size: 16px;
+		margin-left: 20px;
+	}
+	.wrpCtcInvt{
+		margin: 10px 0;
+		text-align: center;
+	}
+}

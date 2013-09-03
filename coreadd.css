@@ -1,0 +1,11 @@
+.imgCrpCenter{
+        display: block;
+        margin: 0 auto;
+        max-width: 540px;
+        width: auto;
+        max-height: 250px;
+        height: auto;
+}
+.jcrop-holder{    
+    margin: 0 auto;
+}

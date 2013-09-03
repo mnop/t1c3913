@@ -1,0 +1,194 @@
+.wrpCvAff{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.cvAff{
+	background: transparent url(img/coveraffiliate.jpg) no-repeat;
+	width: 100%;
+	height: 300px;
+	background-size: 100% auto;
+}
+.txtCvAff{
+	position: absolute;
+	top: 0;
+	padding: 37px 60px;
+}
+.btnAffInvt{
+	width: 200px;
+	height: 40px;
+	background: rgba(255,255,255,.8);
+	margin-top: 20px;
+}
+.clTxtCvAff{
+	text-shadow: 0 1px 3px #fff;
+}
+.wrpBodyAff{
+	padding: 40px 80px;
+}
+.wrpAffCrdt{
+	padding: 20px;
+	text-align: center;
+}
+.crdtAff{
+	margin-left: 100px;
+}
+.wrpNumGetMoneyAff{
+	padding: 40px 0;
+}
+.wrpNumAff{
+	float: left;
+}
+.wrpGetMoney{
+	float: right;
+}
+.wrpGetMoney p{
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+}
+.wrpHtrAff{
+	clear: both;
+}
+.btnGetMoney{
+	float: right;
+	width: 120px;
+}
+.wrpTbAffHtr{
+	overflow: auto;
+	height: 500px;
+}
+.wrpTbAffHtr table,.wrpTgHdGen{
+	margin: 0 5%;
+	width: 90%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrpTbAffHtr td{
+	height: 40px;
+	vertical-align: top;
+	text-align: left;
+	padding: 10px 20px 0 0;
+}
+.wrpTbAffHtr th{
+	border-bottom: 1px solid #d6d5ce;
+	font-weight: normal;
+	color: #555;
+	height: 50px;
+	vertical-align: middle;
+	text-align: left;
+	padding-right: 20px;
+}
+.tbAffInvtHtr th{
+	width: 180px;
+}
+.tbAffInvtHtr a{
+	cursor: pointer;
+}
+.dateAffPay{
+	width: 120px;
+}
+.lstAffPay{
+	width: 600px;
+}
+@media screen and (max-width: 1216px){
+	.cvAff {
+		width: 150%;
+	}
+}
+@media screen and (max-width: 1024px){
+	.wrpBodyAff {
+		padding: 40px 20px;
+	}
+}
+@media screen and (width: 1024px){
+	.cvAff {
+		width: 125%;
+		position: relative;
+		right: 168px;
+	}
+}
+@media screen and (max-width: 1023px){
+	.cvAff {
+		width: 200%;
+	}
+}
+@media screen and (width: 768px){
+	.cvAff {
+		width: 125%;
+		position: relative;
+		right: 168px;
+	}
+}
+@media screen and (max-width: 767px){
+	.cvAff {
+		width: 200%;
+	}
+}
+@media screen and (max-width: 500px){
+	.cvAff {
+		width: 320%;
+	}
+	.txtCvAff {
+		padding: 37px 30px;
+	}
+	.wrpGetMoney p {
+		display: none;
+	}
+}
+@media screen and (max-width: 400px){
+	.txtCvAff {
+		padding: 37px 40px;
+	}
+	.txtCvAff h2{
+		font-size: 22px;
+	}
+	.txtCvAff p{
+		font-size: 20px;
+	}
+	.tgHdGen {
+		font-size: 22px;
+		padding: 0 8px;
+	}
+}
+@media screen and (max-width: 320px){
+	.txtCvAff {
+		padding: 37px 60px;
+	}
+	.wrpBodyAff{
+		padding: 10px;
+	}
+	.wrpAffCrdt {
+		padding: 10px 5px;
+	}
+	.crdtAff {
+		margin-left: 20px;
+	}
+	.wrpNumGetMoneyAff{
+		padding: 10px 0;
+	}
+
+	.btnGetMoney {
+		margin: 12px 0;
+	}
+	.wrpTbAffHtr{
+		height: 240px;
+	}
+	.wrpTbAffHtr table{
+		margin: 0;
+		width: 100%;
+	}
+	.wrpTbAffHtr th{
+		background-color: #e8e7d7;
+		padding-left: 10px;
+	}
+	.wrpTbAffHtr td{
+		padding-left: 10px;
+	}
+	.wrpTgHdGen{
+		margin: 0;
+		width: 100%;
+	}
+}

@@ -1,0 +1,1086 @@
+h1, h2{
+    font-weight: normal;
+}
+/*-----------------------Start-------------------------*/
+.popLS{
+    max-width: 480px;
+    position: relative;
+}
+/*top bar*/
+.topLS:before,.topLS:after,.wrpRemFgt:before,.wrpRemFgt:after,.bodyOrdPop:before,.bodyOrdPop:after{
+    content: " ";
+    display: table;
+}
+.topLS:after,.wrpRemFgt:after,.bodyOrdPop:after{
+    clear: both;
+}
+.wrpFrmGen:before,.wrpFrmGen:after,.wrpBtnExpnPop:before,.wrpBtnExpnPop:after{
+    content: " ";
+    display: table;
+}
+.wrpFrmGen:after,.wrpBtnExpnPop:after{
+    clear: both;
+}
+.wrpTtlLS{
+    float: left;
+    margin-left: 45px;
+    width: 50%;
+}
+.ttlLS{
+    line-height: 89px;
+    width: 100%;
+}
+.closeLS{
+    float: right;
+    padding: 34px 45px;
+}
+.icoCloseLS{
+    background-position: 0 0;
+    background-size: 300px 150px;
+    width: 22px;
+    height: 22px;
+}
+.topBg{
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/*body*/
+.bodyGen{
+    min-height: 415px;
+}
+.bodyLS{
+    padding: 0px 45px;
+}
+.wrpWrnLS{
+    padding: 22px 0;
+    min-height: 75px;
+}
+.wrnLS{
+    text-align: center;
+}
+.errLS{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: relative; 
+    display: inline-block;
+    top: 3px;
+    margin-right: 5px;
+}
+.icoErr{
+    background-position: 96px 0;
+    background-size: 120px 60px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    margin: 5px;
+}
+.spnErrLS{
+    line-height: 24px;
+}
+.wrpInInpUsn,.wrpInInpPwd,.wrpBtnLS,.btnLS{
+    width: 100%;
+}
+.inpLS{
+    width: 90%;
+    height: 58px;
+    margin-bottom: 30px;
+    padding: 0 5%;
+}
+.btnLS{
+    width: 100%;
+    height: 66px;
+    margin-bottom: 22px;
+    line-height: 66px;
+}
+.wrpInpLI{
+    min-width: 10%;
+}
+.wrpRem{
+    float: left;
+    width: 150px;
+}
+.cbRem {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: -2px;
+    margin-right: 4px;
+}
+.lbRem{
+    cursor: pointer;
+    line-height: 25px;
+}
+.wrpFgt{
+    float: right;
+}
+.btnFgt{
+    cursor: pointer;
+    line-height: 25px;
+}
+.fbLI{
+    width: 100%;
+    background-color: #3b5997;
+    text-align: center;
+    cursor: pointer; 
+    margin-top: 92px;
+}
+.btnFbLI{
+    position: relative;
+}
+.btnFbLI a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.wrpIcoFb{
+    position: relative;
+    display: inline-block;
+    top: 12px;
+    margin-right: 10px;
+}
+.icoBgFb{
+    width: 30px;
+    height: 30px;
+    border: 3px solid rgba(255,255,255,.6);
+    border-radius: 50%;
+    background-color: #3b5997;
+}
+.icoFb{
+    background-position: 170px -30px;
+    background-size: 340px 170px;
+    width: 12px;
+    height: 24px;
+    margin: 1px 0 0 8px;
+}
+.wrpTxtFb{
+    line-height: 60px;
+}
+/*Forgot , Forgot Success , Verify Email*/
+.wrpPFgt .wrpInBodyLS{
+    padding: 0 10px;
+}
+.wrpPFgt .wrpTtlLS{
+    width: 90%;
+}
+.wrpPFgt{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.bodyFgt{
+    max-width: 390px;
+    margin: 0 auto;
+}
+.wrpDesLS{
+    text-align: center;
+    margin: 0 auto 30px;
+    line-height: 25px;
+}
+.wrpGoBackFgt{
+    margin: 100px auto 0;
+    text-align: center;
+    line-height: 22px;
+    padding-bottom: 28px;
+}
+.goBack{
+    text-decoration: none;
+}
+.wrpOutIcoCrt{
+    padding-top: 247px;
+}
+.wrpIcoCrt{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 20px;
+}
+.icoCrt{
+    background-position: 240px 160px;
+    background-size: 400px 200px;
+    width: 33px;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 14px;
+}
+.wrpDesVrf{
+    text-align: center;
+    padding: 260px 0 327px;
+}
+/*---------- Back to top ----------*/
+.backToT,.backToTLd{
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    opacity: 0.5;
+    -webkit-transform: translateZ(100px);
+}
+.backT{
+    padding: 8px 10px;
+}
+.icoUp{
+    background-position: 40px 145px;
+    background-size: 180px 100px;
+    width: 30px;
+    height: 30px;
+}
+/*---------- Menu List Pop ex. sort,feature ----------*/
+.sortHome{
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    right: -10px;
+    top: 40px;
+}
+.genMenuListPop{
+    margin: 20px;
+}
+.wrpMenuListPop{
+    width: 200px;
+    position: relative;
+}            
+.triang{
+    border-style: dashed dashed solid;
+    border-color: transparent;
+    border-bottom-color: #F9F7FA;
+    border-width: 0 6px 10px;
+    width: 0;                
+    position: absolute;  
+}
+.triSortHome{
+    right: 30px;
+    top: -10px;
+}
+.triGen{
+    right: 30px;
+    top: -8px;
+}
+.wrpMLP{
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.bgMLPT{
+    height: 10px;
+    border-radius: 2px 2px 0 0;
+}
+.mLP{
+    margin: 0;
+    padding: 0;
+}
+.btnMLP{
+    text-align: left;
+    padding: 10px 20px;
+    cursor: pointer;
+    line-height: 26px;
+}           
+.bgMLPB{
+    height: 10px;
+    border-radius: 0 0 2px 2px;
+}
+/*---------- Menu List Pop ### SHARE ### ----------*/
+.triShr{
+    left: 10px;
+}
+.ttlList{
+    padding: 0 20px;
+    line-height: 25px;
+} 
+.fbShr,.twShr,.gpShr{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #939393;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+.icoFbShr{
+    background-position: 210px 56px;
+    background-size: 140px 70px;
+    width: 5px;
+    height: 11px;
+    margin: 4px 5px;
+}
+.icoTwShr{
+    background-position: 224px 64px;
+    background-size: 160px 80px;
+    width: 10px;
+    height: 8px;
+    margin: 4px;
+}
+.icoGpShr{
+    background-position: 208px 64px;
+    background-size: 160px 80px;
+    width: 10px;
+    height: 9px;
+    margin: 4px;
+}
+.bcShr,.ebShr{
+    display: inline-block;
+    margin-right: 10px;
+}
+.icoBcShr{
+    background-position: -40px 0px;
+    background-size: 400px 200px;
+    width: 16px;
+    height: 14px;
+}
+.icoEbShr{
+    background-position: -60px 0px;
+    background-size: 400px 200px;
+    width: 18px;
+    height: 10px;
+}
+/*----------pop up----------*/
+.ovlPopGen,.ovlPopLd{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(249,249,249,0.8);
+    overflow-y: scroll;
+}
+.ovlPopGen{
+    z-index: 4000;
+}
+.ovlPopLd{
+    z-index: 3000;
+}
+.popGen{
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(1,1,1,.1);
+}
+/*----------head popup----------*/
+.topGen{
+    height: 49px;
+    position: relative;
+}
+.wrpTtlGen{
+    float: left;
+    margin-left: 32px;
+}
+.ttlGen{
+    line-height: 49px;
+}
+.closeGen{
+    float: right;
+    padding: 19px 22px;
+}
+.icoCloseGen{
+    background-position: 0 0;
+    background-size: 160px 80px;
+    width: 12px;
+    height: 12px;
+}
+.topBgGen{
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/*---------- body pop up ----------*/
+.bodyOutGen{
+    padding: 30px;
+    position: relative;
+}
+.bodyInGen{
+    min-height: 355px;
+    position: relative;
+}
+.desAddGen{
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+.frmGen{
+    width: 96%;
+    padding: 2%;               
+    line-height: 27px;
+    resize: none;
+}
+.frmTxtArea{
+    height: 100px;
+    overflow: auto;
+}
+.wrpBtnGen{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.btnGen{
+    width: 80px;
+    height: 30px;
+    border: none;
+    line-height: 25px;
+    padding: 0 10px 5px;
+}
+.genNameUser{   
+    width: 80%;
+    display: inline-block;
+    line-height: 30px;
+}
+/*---------- Add content Popup ----------*/
+.bodyAddFt{
+    overflow: auto;
+    height: 415px;
+}
+.desAddFt{
+    padding: 30px 30px 20px;
+    line-height: 24px;
+}
+.addFtList{
+    list-style: none;
+    text-align: center;
+    padding: 0 50px 0 30px;
+}
+.addFtList li{
+    padding: 12px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #d6d5ce;
+    line-height: 24px;
+}
+.addFtList li:last-child{
+    border: none
+}
+/*---------- Invite ----------*/
+.bodyOutInvtFrnd{
+    height: 415px;
+    overflow: auto;
+}
+.wrpFrndFb{
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.wrpFrndDm{
+    width: 250px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.wrpOutInvtFrnd,.wrpHdFrnd{
+    height: 30px;
+    padding: 5px 0;
+}
+.hdFrndFb{
+    float: left;
+    line-height: 30px;
+    width: 150px;
+}
+.wrpInvtFrnd{
+    float: left;
+    line-height: 30px;
+    width: 196px;
+}
+.wrpBtnInvt{
+    float: right;
+}
+.wrpInvtUser{
+    cursor: pointer;
+}
+.btnInvtAllFrnd{
+    width: 100px;
+    float: right;
+}
+.btnInvtFrnd{
+    width: 50px;
+}
+.btnSeeMore{
+    text-align: center;
+    width: 96%;
+    line-height: 40px;
+}
+/*---------- Create Broadcast Popup ----------*/
+.wrpCountCha{
+    float: right;
+}
+/*---------- Order ----------*/
+.bodyOrdPop{
+    min-height: 355px;
+}
+.ttlLdOrdPop{
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+.wrpImgOrdPop{
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.imgOrdPop{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.prcOrdPop{
+    width: 188px;
+    padding: 5px;
+    text-align: center;
+    line-height: 24px;
+}
+.wrpOrdPop{
+    margin-bottom: 18px;
+}            
+.lbOrdPop{
+    line-height: 20px;
+}
+.inpAmtOrdPop{
+    width: 40px;
+    padding: 0 5px;
+    margin-left: 15px;
+}
+.inpDtlOrdPop{
+    width: 96%;
+    height: 90px;
+    resize: none;
+    padding: 2%;
+}
+.inpEmOrdPop,.inpTelOrdPop{
+    width: 60%;
+    padding: 2px 5px;
+    line-height: 16px;
+    float: right;
+}
+.inpEmOrdPop{
+    margin-left: 32px;
+}
+/*---------- Add activity ----------*/
+.bodyAddAct{
+    padding: 20px;
+    margin-bottom: 12px;
+}
+.wrpOutImgAddAct{
+    float: left;
+}
+.wrpImgAddAct{
+    margin-top: 10px;
+}
+.imgAddAct{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.imgToolAddAct{
+    width: 36px;
+    height: 150px;
+    margin-left: 150px;
+    padding: 0 2px;
+}
+.addImgIco,.addImgCldIco{
+    padding: 9px 5px;
+}
+.icoAddImgTn{
+    background-position: 225px 300px;
+    background-size: 250px 125px;
+    width: 25px;
+    height: 18px;
+}
+.icoAddImgCldTn{
+    background-position: 100px 275px;
+    background-size: 250px 125px;
+    width: 25px;
+    height: 17px;
+}
+.addImgLnkIco{
+    padding: 9px 8px;
+}
+.btnRmv{
+    padding: 9px 8px;
+}
+.icoAddImgLnkTn{
+    background-position: 184px 138px;
+    background-size: 230px 115px;
+    width: 20px;
+    height: 20px;
+}
+.icoRmvTn{
+    background-position: 161px 138px;
+    background-size: 230px 115px;
+    width: 20px;
+    height: 20px;
+}
+.wrpInfoAddAct{
+    margin-left: 200px;
+}
+.inpTtlAddAct,.inpDesAddAct{
+    width: 96%;
+    padding: 2%;
+    margin-bottom: 5px;
+}
+.inpDesAddAct{
+    height: 50px;
+    resize: none;
+}
+.inpTimeAddAct{
+    padding: 5px;
+}
+/*---------- Broadcast look ----------*/
+.wrpBcAuthTime{
+    padding-bottom: 10px;
+    height: 24px;
+}
+.wrpBcAuth{
+    float: left;
+}            
+.bcNameUser{
+    line-height: 24px;
+}
+.bcYou,.bcTime{
+    line-height: 24px;
+}
+.wrpBcTime{
+    float: right;
+}
+/*---------- Image Link ----------*/
+#wrpAddImgLnk .frmGen{
+    padding: 5px 10px;
+}
+.frmShw{
+    height: 200px;
+    overflow: auto;
+}
+/*---------- Full Profile ----------*/
+.popPf{
+    margin-top: 0;
+}
+.popPf .bodyOutGen{
+    padding: 30px 30px 70px;
+}
+.tbPopFullPf{
+    margin: 0 40px 24px; 
+    line-height: 28px;
+}
+.tbPopFullPf th{
+    width: 120px;
+}
+.wrpBtnExpnPop{
+    position: relative;
+}
+.wrpBtnExpnPop .btnGen{
+    float: right;
+    margin-left: 3px;
+}
+/*---------- Cloud Image ----------*/
+.bodyInCldGen{
+    position: relative;
+    height: 400px;
+}
+.wrpSlctGenSrc{
+    padding-bottom: 5px;
+}
+.slctGenSrc{
+    float: left;
+    line-height: 30px;
+}            
+.spnSrcTg{
+    line-height: 30px;
+    cursor: pointer;
+}            
+.wrpOutSrchBox{
+    float: right;
+}            
+.wrpSrchBox{
+    position: relative;
+}            
+.srchBox{
+    width: 120px;
+    height: 25px;
+    padding: 0 25px 0 5px;
+    line-height: 25px;
+}            
+.srchGen{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}            
+.icoSrchGen{
+    background-position: -80px -20px;
+    background-size: 400px 200px;
+    width: 15px;
+    height: 15px;
+}
+.wrpFrmGenImg{
+    overflow: hidden;
+    padding: 8px;
+    clear: both;
+}
+.frmGenImg{
+    height: 220px;
+    overflow: auto;
+    padding-right: 20px;
+    clear: both;
+    width: 108%;
+    overflow: scroll;
+}
+.imgCld{
+    display: inline-block;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+    width: 23%;
+    height: auto; 
+}
+.touch .imgCld{
+    width: 22%;
+}
+.btnCldSeemore{
+    box-shadow: 0 -5px 5px -5px rgba(136,136,136,.2);
+}
+/*---------- Resize and Crop ----------*/
+.frmResCrp{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.imgResCrp{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+/*----------mini pop up----------*/
+.wrpMiniPop{
+    text-align: center;
+    padding: 20px 5px 10px;
+    background: rgba(0,0,0,0.8) !important;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    z-index: 1000000;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 50%;
+    margin-top: -40px;
+}
+.wrpAddAlert{
+    background: transparent;
+}
+.miniPop{
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+}
+.signMiniPop{
+    display: inline-block;
+}
+.bgSignMiniPop{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+}
+.signMiniPop .clBgSp1{
+    background: #3fcaaf !important
+}
+.txtMiniPop{
+    position: relative;
+    top: -14px;
+    left: 5px;
+}
+.icoCrtMiniPop{
+    background-position: 145px 97px;
+    background-size: 242px 121px;
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+.icoWrngMiniPop{
+    background-position: 240px 0px;
+    background-size: 300px 150px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+.icoWrnMiniPop{
+    background-position: 30px 145px;
+    background-size: 300px 150px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.wrpBtnMiniPop{
+/*    position: relative;
+    top: 20px;
+    left: 20px;*/
+}
+.btnMiniPop{
+    width: 70px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #8d8d8d;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    margin: 5px 10px;
+}
+/*--------------------------back end--------------------------*/
+.bodyImgCldMn textarea{
+    height: 238px;
+}
+.wrpFrmGen .closeTl,.bodyOutGen .slideLdR,.bodyOutGen .slideLdL{
+    background-color: rgba(189,189,189,0.6);
+}
+.slideLdR, .slideLdL {
+    padding: 13px 20px;
+    width: 21px;
+    height: 33px;
+}
+.icoSlideLdR {
+    background-position: -40px 40px;
+    background-size: 400px 200px;
+    width: 20px;
+    height: 33px;
+}
+.icoSlideLdL {
+    background-position: 0 40px;
+    background-size: 400px 200px;
+    width: 20px;
+    height: 33px;
+}
+.desAddGen1{
+    line-height: 24px;
+}
+.wrpFrmGen .closeTl{
+    position: absolute;
+    top: 68px;
+    right: 0;
+}
+.bodyOutGen .slideLdR{
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    z-index: 100;
+}
+.bodyOutGen .slideLdL{
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    z-index: 100;
+}
+.bodyInLkCld{
+    position: relative;
+}
+.bodyInLkCld .wrpBtnExpnPop{
+    padding-bottom: 0;
+}
+.bcImgUser {
+    margin: 0 6px !important;
+}
+    .wrpCtcInfo .tbPopFullPf,.wrpCtcInfo .tbPopFullPf tbody,.wrpCtcInfo .tbPopFullPf tr {
+        display: block;
+    }
+    .wrpCtcInfo .tbPopFullPf th,.wrpCtcInfo .tbPopFullPf td{
+        display: inline-block;
+    }
+    .wrpCtcInfo .tbPopFullPf th{
+        width: 30%;
+        box-sizing: border-box;      
+        -webkit-box-sizing:border-box;      
+        -moz-box-sizing: border-box;
+    }
+    .wrpCtcInfo .tbPopFullPf td{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 67%;
+        box-sizing: border-box;      
+        -webkit-box-sizing:border-box;      
+        -moz-box-sizing: border-box;
+    }
+/*-----------------------wrap pop-------------------------*/
+.wrpPopImgLnk,.wrpPopVdoLnk,.wrpPopCld,.wrpPopEb,.wrpPopLI,.wrpPopSU,.wrpPopOrd{
+    z-index: 5000;
+}
+.wrpPopImgLnk .frmGen,.wrpPopVdoLnk .frmGen{
+    width: 98%;
+    padding: 1%;
+}
+/*.wrpPopAddPop .bodyInGen {
+    min-height: 400px !important;
+}*/
+    /*-----------------------hover , active-------------------------*/
+    .no-touch .btnFgt:hover,.no-touch .btnFbLI:hover{
+        opacity: 0.8;
+    }
+    .no-touch .addFtList li a:hover{
+        color: #A186BD;
+    }
+    .no-touch .wrpInvtUser:hover,.no-touch .btnGen:hover,.no-touch .imgCld:hover,.no-touch .imgCld:active{
+        opacity: 0.6;
+    }
+    .no-touch .btnInvtFrnd:active{
+        background-color: transparent !important;
+        color: #939393;
+        border: 1px solid #d6d5ce;
+        font-size: 17px;
+        cursor: default;
+    }
+    .no-touch .btnMLP:hover{
+        background-color: #ECECEC;
+        opacity: 1;
+    }
+@media screen and (max-width: 1024px){
+    .ovlPopGen,.bodyAddFt,.bodyOutInvtFrnd,.frmGenImg,.wrpPFgt{
+       -webkit-overflow-scrolling: touch !important;
+    }
+    .ldTtlAddTrip,.ldTtlTrip{
+        font-size: 24px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .mainSB .sortHome{
+        top: 25px;
+    }
+}
+@media screen and (max-width: 500px){
+    .pfSB .sortHome{
+        top: 35px;
+    }
+    .wrpImgOrdPop {
+        float: none;
+        margin: 0 auto 20px;
+        width: 200px;
+    }
+    .wrpOutImgAddAct {
+        float: none;
+        margin: 0 auto 20px;
+        width: 192px;   
+    }
+    .wrpInfoAddAct {
+        margin-left: 0;
+    }
+    .imgCld{
+        width: 31%;
+    }
+    .touch .imgCld{
+        width: 30%;
+    }
+    .popPf .wrpTtlGen{
+        margin-left: 20px;
+    }
+    .popPf .bodyOutGen{
+        padding: 10px 20px 40px;
+    }
+    .tbPopFullPf{
+        margin: 0 20px 24px;
+    }
+}
+@media screen and (max-width: 410px){
+    .wrpPopCld .slctGenSrc,.wrpPopAddCellTrip .slctGenSrc,.wrpPopAddPop .slctGenSrc{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wrpPopCld .wrpOutSrchBox,.wrpPopAddCellTrip .wrpOutSrchBox,.wrpPopAddPop .wrpOutSrchBox{
+        float: none;
+        margin-bottom: 10px;
+        clear: both;
+    }
+    .wrpPopCld .srchBox,.wrpPopAddCellTrip .srchBox,.wrpPopAddPop .srchBox{
+        width: 90%;
+        padding: 0 8% 0 1%;
+    }
+    .wrpPopCld .srchGen,.wrpPopAddCellTrip .srchGen ,.wrpPopAddPop .srchGen{
+        top: 5px;
+    }
+    .wrpPopAddPop p{
+        display: none;
+    }
+}
+@media screen and (max-width: 350px){
+    .bodyLS {
+        padding: 0 10px;
+    }
+    .wrpTtlLS {
+        margin-left: 20px;
+    }
+    .closeLS {
+        padding: 34px 20px;
+    }
+}
+@media screen and (max-width: 320px){
+    .popLS,.popGen,.wrpPFgt{
+        width: 320px;
+    }
+    .wrpRemFgt {
+        margin-bottom: 65px;
+    }
+    .wrpWrnLS{
+        min-height: 0;
+    }
+    .fbLI{
+        margin-top: 10px;
+    }
+    .bodyAddFt,.bodyOutInvtFrnd {
+        overflow: auto;
+        height: 305px;
+    }
+    .bodyGen {
+        min-height: 305px;
+    }
+    .bodyOutGen {
+        padding: 20px;
+    }
+    .wrpTtlGen {
+        margin-left: 20px;
+    }
+    .bodyInGen{
+        min-height: 265px;
+    }
+    .frmShw {
+        height: 120px;
+    }
+    .tbPopFullPf{
+        margin: 0 0 24px;
+    }
+    .touch .frmGenImg {
+        width: 104%;
+    }
+    .wrpGoBackFgt {
+         margin: 10px auto 0;
+    }
+    .frmGenImg{
+        height: 130px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,595 @@
+/*----------------------- hover active----------------------*/
+.fMEPf:hover,.ctcPf:hover,.wrpFullPf:hover,.wrpInCellEdt:hover,.wrpTag:hover{
+	opacity: 0.8;
+}
+/*_________________________*/
+.clTxtPf{
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+.wrprCovPf{
+	position: relative;
+	width: 100%;
+	height: 390px;
+}
+.covPf{
+	position: relative;
+	height: 300px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.covPf a img{
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+.wrpCovPf{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top: 0;
+}
+.covPf:after{
+    box-shadow: inset 0 0 100px rgba(0,0,0,0.3);
+    height: 300px;
+    content: '';
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.ovlPf{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 66px;
+	opacity: 0.4;
+	background: #000;
+}
+.wrprInfoPf{
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	right: 0;
+}
+.wrpFlwMsgEdtPf{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 5px;
+}
+.fMEPf{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: rgba(0,0,0,.4);
+	display: inline-block;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.icoUnFlwPf{
+	background-position: 0 120px;
+	background-size: 300px 150px;
+	width: 23px;
+	height: 23px;
+	margin: 11px;
+}
+.icoFlwPf{
+	background-position: 30px 147px;
+	background-size: 300px 150px;
+	width: 23px;
+	height: 23px;
+	margin: 11px;
+}
+.icoMsgPf{
+	background-position: 361px 163px;
+	background-size: 400px 200px;
+	width: 24px;
+	height: 24px;
+	margin: 11px;
+}
+.icoEdtPf{
+	background-position: 280px 160px;
+	background-size: 400px 200px;
+	width: 22px;
+	height: 22px;
+	margin: 11px 12px;
+}
+.wrpNumFlwPf{
+	position: absolute;
+	right: 0;
+	top: 70px;
+	margin: 10px;
+	text-align: right;
+}
+.wrpCtcPf{
+	position: absolute;
+	right: 0;
+	margin: 8px;
+	display: inline-block;
+}
+.wrprImgPf{
+	position: absolute;
+	top: 165px;
+	width: 100%;
+	z-index: 10;
+}
+.wrpInImgPf{
+	position: relative;
+	width: 100%;
+	height: 120px;
+}
+.wrpImgPf{
+	width: 175px;
+	height: 175px;
+	border: 10px solid rgba(255,255,255,.4);
+	border-radius: 50%;
+	float: left;
+	margin-left: 20px;
+}
+.wrpImgPf img{
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+}
+.wrpDpNamePf{
+	padding-top: 69px;
+}
+.dpNamePf{
+	max-width: 60%;
+	line-height: 66px;
+	height: 66px;
+	float: left;
+	margin-left: 25px;
+}
+.authCell .ico{
+	display: inline-block;
+    float: left;
+    margin: 7px 0 0 5px;
+}
+.wrpIcoPvPf{
+	display: inline-block;
+    height: 26px;
+    margin: 0 10px;
+    padding: 20px 0;
+}
+.icoPvPf{
+	background-position: 320px 160px;
+	background-size: 400px 200px;
+	width: 20px;
+	height: 23px;
+}
+.icoPvCellPf{
+	background-position: 360px 180px;
+	background-size: 200px 100px;
+	width: 10px;
+	height: 12px;
+	margin: -2px 2px;
+}
+.wrpLvlLcPft{
+	font-weight: bold;
+	padding-top: 10px;
+	position: absolute;
+	width: 100%;
+	line-height: 36px;
+}
+.lvlPf{
+	float: left;
+	margin: 0 10px 0 240px;
+	display: inline-block;
+}
+.lctPf{
+	float: left;
+	display: inline-block;
+}
+.wrpBtmCovPf{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.icoMapPf{
+	background-position: 99px 99px;
+	background-size: 328px 164px;
+	width: 19px;
+	height: 25px;
+	float: left;
+	margin-right:5px;
+}
+.wrpFullPf{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 0 60px 60px;
+	border-color: transparent transparent #bdbdbd transparent;
+	cursor: pointer;
+}
+.icoFullPf{
+	background-position: 260px 180px;
+	background-size: 400px 200px;
+	width: 10px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	top: 30px;
+}
+/*-----------------------------sub bar profile---------------------------------*/
+.pfSB{
+	line-height: 20px;
+	padding: 0;
+	width: 100%;
+}
+.pfSB .ttlB{
+	width: 60%;
+}
+.wrpNavB{
+	float: left;
+	text-align: center;
+	padding: 5px 30px;
+	margin: 6px 0;
+	cursor: pointer;
+}
+.wrpPoiB,.wrpFavB{
+	border-width: 1px;
+	border-right-style: solid;
+}
+/*-----------------------------profile cell---------------------------------*/
+.wrpTag{
+	width: 237px;
+	height: 238px;
+	margin: 2px 1px 1px 2px;
+	cursor: pointer;
+	float: left;
+	border: 1px solid #d6d5ce;
+	position: relative;
+}
+.bigImgTag{
+	float: left;
+}
+.wrpNameTag{
+	bottom: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.nameTag{
+	width: 100%;
+	display: block;
+	line-height: 50px;
+}
+@media screen and (max-width: 1550px){
+	.dpNamePf {
+		max-width: 50%;
+	}
+}
+@media screen and (max-width: 1290px){
+	.dpNamePf {
+		max-width: 40%;
+	}
+}
+@media screen and (max-width: 1214px){
+	.wrpCtcPf{
+		margin: 6px 
+	}
+	.wrpNameTag{
+		padding: 8px 0  
+	}
+	.wrprCovPf{
+		height: 312px;
+	}
+	.wrpCovPf{
+		height: 248px;
+	}
+	.covPf{
+		height: 248px;
+	}
+	.lvlPf {
+		margin: 0 10px 0 200px;
+	}
+	.dpNamePf {
+		margin-left: 20px;
+	}
+	.ovlPf{
+		height: 53px;
+	}
+	.wrprInfoPf{
+		height: 248px;
+	}
+	.wrpNumFlwPf{
+		top: 50px;
+	}	
+	.wrprImgPf{
+		top: 132px;
+	}
+	.wrpImgPf,.wrpImgPf img{
+		width: 140px;
+		height: 140px;
+	}
+	.wrpDpNamePf{
+		padding-top: 64px;
+	}
+	.dpNamePf{
+		font-size: 32px;
+		height: 53px;
+		line-height: 53px;
+	}
+	.wrpIcoPvPf{
+		padding: 14px 0;
+	}
+	.icoPvPf {
+		background-position: -64px -30px;
+		background-size: 320px 160px;
+		width: 16px;
+		height: 22px;
+	}
+	.wrpLvlLcPft{
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.icoMapPf {
+		background-position: 78px 78px;
+		background-size: 260px 130px;
+		width: 15px;
+		height: 20px;
+		float: left;
+		margin-right: 5px;
+	}
+	.wrpTag{
+		width: 257px;
+		height: 257px;
+		margin: 1px;
+	}
+	.bigImgTag{
+		width: 172px;
+		height: 172px;
+	}
+	.smlImgTag1,.smlImgTag2{
+		width: 85px;
+		height: 86px;
+	}
+	.covPf a img{
+		width: 110%;
+	}
+}
+@media screen and (max-width: 980px){
+	.dpNamePf {
+		max-width: 30%;
+	}
+	.covPf a img{
+		width: 122%;
+	}
+}
+@media screen and (max-width: 900px){
+	.wrpCtcPf{
+		display: none;
+	}
+	.dpNamePf {
+		max-width: 50%;
+	}
+	.covPf a img{
+		width: 154%;
+	}
+	.wrpNavB{
+		padding: 5px 25px;
+	}
+}
+@media screen and (max-width: 768px){
+	.wrprCovPf{
+		height: 312px;
+	}
+	.wrpCtcPf{
+		display: inline-block;
+	}
+	.wrpTag{
+		width: 250px;
+		height: 251px;
+		margin: 2px;
+	}
+	.bigImgTag{
+		width: 167px;
+		height: 166px;
+	}
+	.smlImgTag1,.smlImgTag2{
+		width: 83px;
+		height: 83px;
+	}
+	.dpNamePf {
+		max-width: 30%;
+	}
+}
+@media screen and (width: 768px){
+	.covPf a img {
+		width: 105%;
+	}
+	.pfSB{
+		height: 64px;
+	}
+	.pfSB .fs05 {
+		font-size: 24px;
+	}
+	.pfSB .sortB {
+		line-height: 64px;
+		height: 64px;
+	}
+	.pfSB .ico {
+		margin: 10px;
+	}
+	.pfSB .icoArwDwnSort {
+		top: 18px;
+		height: 7px;
+	}
+}
+@media screen and (max-width: 767px){
+	.pfSB{
+		height: 64px;
+	}
+	.pfSB .fs05 {
+		font-size: 24px;
+	}
+	.pfSB .sortB {
+		line-height: 64px;
+		height: 64px;
+	}
+	.pfSB .ico {
+		margin: 10px;
+	}
+	.pfSB .icoArwDwnSort {
+		top: 18px;
+		height: 7px;
+	}
+}
+@media screen and (max-width: 640px){
+	.wrpCtcPf{
+		display: none;
+	}
+	.dpNamePf {
+		max-width: 50%;
+	}
+	.covPf a img {
+		width: 162%;
+	}
+}
+@media screen and (max-width: 500px){
+	.wrpNameTag{
+		padding: 24px 0
+	}
+	.wrprCovPf{
+		height: 260px;
+	}
+	.divLctPf {
+		width: 100%;
+	}
+	.spnLctPf {
+		max-width: 38%;
+	}
+	.covPf{
+		overflow: hidden;
+		height: 200px;
+	}
+	.covPf a img {
+		width: 208%;
+	}
+	.covPf:after,.wrpCovPf{
+		height: 200px;
+	}
+	.ovlPf{
+		height: 40px;
+	}
+	.wrprInfoPf{
+		width: 100%;
+		height: 200px;
+	}
+	.wrpNumFlwerPf .fs11,.wrpNumFlwngPf .fs11{
+		font-size: 26px;
+	}
+	.wrpNumFlwerPf .fs01,.wrpNumFlwngPf .fs01{
+		font-size: 14px;
+	}
+	.wrpCtcPf,.lvlPf{
+		display: none;
+	}
+	.wrprImgPf{
+		top: 120px;
+	}
+	.wrpImgPf,.wrpImgPf img{
+		width: 100px;
+		height: 100px;
+	}
+	.wrpImgPf{
+		border: 5px solid rgba(255,255,255,.4);
+		margin-left: 10px;
+	}
+	.wrpDpNamePf{
+		margin-left: 120px;
+		padding-top: 44px;
+	}
+	.dpNamePf{
+		font-size: 30px;
+		max-width: 80%;
+		height: 30px;
+		line-height: 30px;
+		margin-left: 10px;
+	}
+	.wrpIcoPvPf{
+		padding: 10px 0;
+		height: 12px;
+		margin: 0 5px;
+	}
+	.icoPvPf {
+		background-position: -40px -20px;
+		background-size: 200px 100px;
+		width: 10px;
+		height: 12px;
+	}
+	.wrpLvlLcPft{
+		padding-top: 5px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	div.lctPf{
+		margin-left: 130px;
+	}
+	.icoMapPf {
+		background-position: 61px 60px;
+		background-size: 200px 100px;
+		width: 12px;
+		height: 15px;
+		float: left;
+		margin-right: 5px;
+	}
+	.pfSB .ttlB{
+		max-width: 100%;
+		width: 100%;
+		border-bottom: 1px solid #d6d5ce;
+	}
+	.wrpNavB{
+		width: 33%;
+		padding: 0;
+	}
+	.pfSB .sortB{
+		clear: both;
+		position: relative;
+		line-height: 46px;
+		height: 46px;
+	}
+	.pfSB .icoArwDwnSort{
+		position: absolute;
+		top: 10px;
+	}
+	.wrpTag{
+		width: 314px;
+		height: 314px;
+	}
+	.bigImgTag{
+		width: 210px;
+		height: 208px;
+	}
+	.smlImgTag1,.smlImgTag2{
+		width: 104px;
+		height: 104px;
+	}
+	.wrpImgTag{
+		height: 210px;
+		overflow: hidden;
+	}
+	.pfSB {
+		height: 100px;
+	}
+	.pfSB .fs05 {
+		font-size: 18px;
+	}
+	.nameTag {
+		line-height: 38px;
+	}
+}
+@media screen and (max-width: 320px){
+	.wrpFlwMsgEdtPf {
+        margin: 5px 0;
+    }
+	.covPf a img {
+		width: 200%;
+	}
+}

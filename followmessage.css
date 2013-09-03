@@ -1,0 +1,388 @@
+/*----------------for JS--------------------*/
+.ftrMsg{
+	display: none;
+}
+.atUsrTalk{
+	background: #fff;
+}
+/*----------------hover--------------------*/
+.no-touch .wrpBlckRptFlw:hover .blckRptFlwPop{
+	display: block;
+}
+.no-touch .wrpInLstFlw:hover{
+	opacity: 0.8;
+}
+.wrpOutLstMsg:active{
+	 background-color: #ECECEC;
+}
+/*----------------follow and message------------------------*/
+.wrprFlwMsg{
+	padding: 40px 120px 60px;
+}
+/*----------------follow-----------------------*/
+.wrpInLstFlw{
+	float: left;
+	cursor: pointer;
+	width: 58%;
+}
+.wrpInLstFlw .genImgUser{
+	margin-right: 10px;
+}
+.wrpInLstFlw .genNameUser{
+	width: 80%;
+	line-height: 32px;
+}
+.wrpFlw{
+	position: relative;
+}
+.wrpFlw .wrpFlwHd,.wrpLstFlw{
+	padding: 0 30px;
+}
+.tgFlwHdGen{
+	display: inline-block;
+	line-height: 20px;
+	padding: 0 20px;
+	cursor: pointer;
+	margin: 10px 0;
+}
+.flwAllFlw{
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	display: none;
+}
+.wrprOutLstFlw{
+	overflow: auto;
+	height: 500px;
+}
+.wrpOutLstFlwMsg{
+	height: 32px;
+	padding: 10px 0;
+}
+.wrpBtnFlw{
+	float: right;
+}
+.wrpBlckRptFlw{
+	float: right;
+	margin: 0 5px;
+	position: relative;
+}
+.icoArwDwnFlw{
+	background-position: 116px 82px;
+	background-size: 194px 97px;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	top: 6px;
+	left: 8px;
+}
+.icoAcpFlw{
+	background-position: 116px 82px;
+	background-size: 194px 97px;
+	width: 16px;
+	height: 20px;
+	margin: 6px 8px;
+	display: inline-block !important;
+}
+.icoMsgGen{
+	background-position: -26px 107px;
+	background-size: 266px 133px;
+	width: 16px;
+	height: 13px;
+	position: relative;
+	top: 9px;
+	left: 7px;
+}
+.icoDelGen{
+	background-position: 128px 18px;
+	background-size: 182px 91px;
+	width: 17px;
+	height: 17px;
+	margin: 7px 8px;
+	display: inline-block !important;
+}
+.icoArwDwnFlw{
+	background-position: 341px -29px;
+	background-size: 400px 200px;
+	width: 20px;
+	height: 10px;
+	position: relative;
+	left: 7px;
+	top: 12px;
+}
+.blckRptFlwPop{
+	position: absolute;
+	top: 10px;
+	left: -164px;
+	display: none;
+	z-index: 1000;
+	-webkit-transform: translateZ(10px);
+}
+.wrpSgtFrnd{
+	margin: 40px 150px;
+	padding: 20px 20px 0;
+	overflow: auto;
+	height: 500px;
+}
+.wrpHdSgtFrnd{
+	height: 30px;
+	padding: 5px 0;
+}
+.noFlwMsg{
+	margin-top: 100px;
+	display: block;
+	text-align: center;
+}
+/*-----------------message-------------------*/
+.msgAtv {
+	background-color: #ECECEC;
+}
+.txtMsgArea{
+	display: none;
+}
+.addMsg{
+	display: none;
+}
+.wrpOutLstMsg{
+	padding: 10px 0;
+	cursor: pointer;
+}
+.wrpLstUserMsg{
+	float: left;
+	width: 280px;
+}
+.wrprMsgArea{
+	margin-left: 280px;
+	position: relative;
+}
+.wrpInMsgArea{
+	padding: 30px 30px 0;
+	overflow: auto;
+	height: 482px;
+    margin-bottom: 20px;
+}
+.wrpListNameTimeMsg .genNameUser{
+	width: 230px;
+}
+.hdMsgArea{
+	margin-bottom: 20px;
+}
+.lstUserMsg{
+	height: 480px;
+	overflow: auto;
+}
+.wrpNameTimeMsg{
+	float: left;
+}
+.msgArea{
+	min-height: 40px;
+	margin-bottom: 10px;
+}
+.wrpNameTimeMsg .genNameUser{
+	width: 100px;
+	line-height: 26px;
+}
+.userMsg{
+	margin-left: 120px;
+	line-height: 22px;
+}
+.wrpInpMsg{
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: block;
+	height: 38px;
+}
+.inpMsg{
+	padding: 5px 35px 5px 10px;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 38px;
+	box-sizing: border-box;      -webkit-box-sizing:border-box;      -moz-box-sizing: border-box;
+}
+.addMsg{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+} 
+.addMsg .btnIco{
+	float: left;
+}
+.sendMsg{
+	position: absolute;
+	right: 10px;
+	margin: 12px 0;
+	z-index: 10;
+}
+.icoSendMsg{
+	background-position: 280px -20px;
+	background-size: 400px 200px;
+	width: 20px;
+	height: 15px;
+}
+.topMsgArea{
+	display: none;
+}
+.dateMsg{
+	margin-bottom: 40px;
+}
+@media screen and (max-width: 1120px){
+	.wrpSgtFrnd{
+		margin: 40px;
+	}
+	.wrprFlwMsg {	
+		padding: 40px 20px 60px
+	}
+}
+@media screen and (max-width: 1024px){
+	.wrpInLstFlw .genImgUser {
+		margin: 0 6px 0;
+	}
+	.wrpSgtFrnd{
+		margin: 40px 80px;
+	}
+}
+@media screen and (max-width: 900px){
+	.wrpLstUserMsg {
+		width: 196px;
+	}
+	.tgHdGen {
+		padding: 0 4px;
+	}
+	.wrprMsgArea {
+		margin-left: 195px;
+	}
+	.genNameUser {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 780px){
+	.wrpSgtFrnd{
+		margin: 40px 0;
+	}
+}
+@media screen and (max-width: 640px){
+	.tgHdGen {
+		padding: 0 18px;
+	}
+	.wrprFlwMsg {
+		padding: 0 0 70px;
+		width: 100%;
+		overflow: hidden;
+	}
+	.wrpFlw .wrpFlwHd, .wrpLstFlw {
+		padding: 0;
+	}
+	.tgFlwHdGen{
+		padding: 0 10px;
+	}
+	.wrpInLstFlw{
+		width: 44%;
+	}
+	.wrpInLstFlw .genNameUser{
+		width: 67%;
+	}
+	.wrpSgtFrnd{
+		padding: 10px;
+	}
+	.wrprMsg{
+		position: relative;
+		width: 100%;
+		overflow: hidden;	
+	}
+	.wrprMsg{
+		width: 200%;
+	}
+	.wrpLstUserMsg,.wrprMsgArea{
+		width: 50%;
+	}
+	.wrprMsgArea {
+		margin-left: 50%;
+	}
+	.wrprMsgArea,.wrpInpMsg,.topMsgArea{
+		z-index: 100;
+		-webkit-transform: translateZ(100px);
+		-moz-transform: translateZ(100px);
+		box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	}
+	.wrprMsgArea{
+		float: inherit;
+		margin-left: 0;
+		background: #F9F9F9;
+		position: absolute;
+		top: 0;
+		left: 0;
+		-webkit-transform: translate3d(100%, 0, 0);
+		-webkit-transition: -webkit-transform 500ms ease-in-out;
+		-webkit-backface-visibility: hidden;
+		-moz-transform: translate3d(100%, 0, 0);
+		-moz-transition: -moz-transform 500ms ease-in-out;
+		-moz-backface-visibility: hidden;
+	}
+	.wrpMsgAreaSlToL{
+		-webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+		-moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+	}
+	.topMsgArea{
+		position: absolute;
+		width: 100%;
+		display: block;
+	}
+	.btnBackMsg {
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 10px 15px 10px 0;
+		border-color: transparent #939393 transparent transparent;
+		cursor: pointer;
+		float: left;
+		opacity: 0.5;
+		margin: 10px;
+	}
+	.wrpInMsgArea{
+		height: 461px;
+    	padding-top: 50px;
+	}
+	.touch .wrpInMsgArea{
+		height: 468px;
+	}
+	.backToT{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 320px){
+	.wrprFlwMsg {
+		padding: 0;
+	}
+	.lstUserMsg {
+		width: 90%;
+		margin-left: 10%;
+	}
+	.lstUserMsg {
+		height: 260px;
+	}
+	.touch .wrpInMsgArea{
+		height: 250px;
+		padding-bottom: 10px;
+	}
+	.wrpInMsgArea {
+    	height: 260px;
+    }
+/*	.noFlwMsg{
+		margin: 30px 0;
+	}*/
+	.wrpSgtFrnd {
+		margin: 10px;
+		padding: 10px;
+		height: 100%;
+	}
+	.wrpUnderMsgArea{
+		position: relative;
+	}
+}

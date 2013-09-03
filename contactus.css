@@ -1,0 +1,116 @@
+/*----------hover------------*/
+.ctcPf:hover{
+	opacity: 0.8
+}
+/*-----------contact us---------------*/
+.wrpCtcUs{
+	padding: 10px 120px;
+}
+.wrpLnkCtcUs{
+	text-align: center;
+	padding: 60px 0;
+}
+.wrpIcoCtcUs{
+	margin-top: 20px;
+}
+.ctcUsFb{
+	background-color: #3b5997;
+}
+.ctcUsTw{
+	background-color: #1ba9e1;
+}
+.ctcUsGp{
+	background-color: #c53d2d;
+}
+.ctcUsSkype{
+	background-color: #11a5f3;
+}
+.ctcUsMail{
+	background-color: #019f79;
+}
+.icoSkypePf{
+	background-position: 80px 160px;
+	background-size: 400px 200px;
+	width: 25px;
+	height: 25px;
+	margin: 7px;
+}
+.icoMailPf{
+	background-position: -40px -40px;
+	background-size: 400px 200px;
+	width: 24px;
+	height: 18px;
+	margin: 11px 9px;
+}
+.wrpFrmCtcUs{
+	padding: 40px 0;
+}
+.imgCtcUs{
+	background: transparent url(img/contactus.png) no-repeat;
+	background-size: 250px 241px;
+	width: 250px;
+	height: 241px;
+	float: left;
+	margin: 20px;
+}
+.frmCtcUs{
+	margin-left: 350px;
+}
+.inpFrmCtcUs input,.inpFrmCtcUs textarea{
+	width: 96%;
+}
+.inpFrmCtcUs textarea{
+	height: 100px;
+}
+.btnSendCtcUs{
+	float: right;
+}
+@media screen and (max-width: 1214px){
+	.icoSkypePf{
+		background-position: 68px 136px;
+		background-size: 342px 171px;
+		width: 22px;
+		height: 22px;
+		margin: 6px;
+	}
+	.icoMailPf{
+		background-position: -32px -34px;
+		background-size: 334px 167px;
+		width: 20px;
+		height: 14px;
+		margin: 9px 6px;
+	}
+	.wrpCtcUs {
+		padding: 10px;
+	}
+	.imgCtcUs {
+		background-size: 200px 193px;
+		width: 200px;
+		height: 193px;
+	}
+	.frmCtcUs {
+		margin-left: 250px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.wrpCtcUs {
+		padding: 10px 20px;
+	}
+	.wrpFrmCtcUs {
+		padding: 40px 0 100px;
+	}
+}
+@media screen and (max-width: 600px){
+	.wrpCtcUs{
+		padding: 0;
+	}
+	.wrpLnkCtcUs{
+		padding: 50px 0;
+	}
+	.imgCtcUs{
+		display: none;
+	}
+	.frmCtcUs{
+		margin: 0 10px;
+	}
+}
